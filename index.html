@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador/Desencriptador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="/images/Logo.png" alt="Imagen de cabecera">
+    </header>
+    <div class="container">
+        <div class="left">
+            <div class="left">
+                <textarea id="inputText" placeholder="Ingresa el texto aquí"></textarea>
+                <button id="encryptButton" class="encrypt-button">Encriptar</button>
+                <button id="decryptButton" class="decrypt-button">Desencriptar</button>
+            </div>
+        </div>
+        <div class="right">
+            <div class="result-container">
+                <div class="image-container">
+                    <img src="/images/text_error.png" alt="Imagen flotante" class="floating-image">
+                </div>
+                <p id="warningText" class="warning-text">Ningún texto encontrado</p>
+                <div class="result" id="result"></div>
+            </div>
+        </div>     
+    </div>
+    <script src="/functions.js"></script>
+</body>
+</html>
